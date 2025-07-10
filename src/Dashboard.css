@@ -1,0 +1,90 @@
+*{
+  
+}
+
+.dashboard-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.success-popup {
+  text-align: left;
+  align-items: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background-color: #28a745; /* green */
+  color: white;
+  padding: 12px 18px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 5s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.upload-section {
+  margin-top: 0px;
+}
+
+.default-file-input {
+  font-size: 16px;
+  padding: 6px;
+}
+
+.preview-section {
+  margin-top: 30px;
+}
+
+.preview-image {
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.dashboard-container #upload-text{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+.upload-section {
+    text-align: left;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* This keeps the file input as default browser style */
+.default-file-input {
+  font-size: 16px;
+  padding: 6px;
+}
+
+.preview-section {
+  margin-top: 30px;
+}
+
+.preview-image {
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+

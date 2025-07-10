@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 255, 0.5);
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.right-pane {
+  flex: 1;
+  background-color: #fff;
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-pane h2 {
+  margin-bottom: 30px;
+}
+
+.right-pane form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-pane label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.right-pane input[type="email"],
+.right-pane input[type="password"] {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.right-pane button {
+  padding: 12px;
+  background-color: #f2541b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.right-pane a {
+  margin-top: 10px;
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.right-pane .error-message {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.terms a {
+  color: #0077cc;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons svg {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.2);
+  color: #f2541b; /* Optional hover color */
+}
